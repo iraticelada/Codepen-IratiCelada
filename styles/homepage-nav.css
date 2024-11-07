@@ -1,0 +1,44 @@
+/*Top part of the homepage*/
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.top-header>.logo-wrapper img{
+    width: 200px;
+    height: 100%;
+}
+
+.top-header>.navigation-wrapper>.nav-links {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.top-header>.navigation-wrapper>.nav-links span {
+    color: rgb(255, 208, 0);
+    margin-right: 20px;
+}
+
+.top-header>.navigation-wrapper>.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.search {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.search a {
+    color: white;
+}
+
+
+
+

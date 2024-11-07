@@ -1,0 +1,43 @@
+.content-wrapper{
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+.content-wrapper>.text-wrapper{
+    max-width: 50%;
+    color: white;
+    text-align: left;
+}
+  
+.content-wrapper>.text-wrapper h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    line-height: 1em;
+}
+
+.content-wrapper>.text-wrapper span{
+    font-weight: bold;
+}
+  
+.content-wrapper>.text-wrapper p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+
+.content-wrapper>.project-wrapper p {
+    color: white;
+    text-align: left;
+}
+
+.content-wrapper>.project-wrapper span {
+    color: rgb(49, 205, 233);
+}
+
+.content-wrapper>.project-wrapper img {
+    width: 800px;
+    height: 100%;
+}
+

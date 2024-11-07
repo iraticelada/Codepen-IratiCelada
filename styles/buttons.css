@@ -1,0 +1,80 @@
+/*Header buttons*/
+.create-button,.login-button,.signup-button{
+    background-color: rgb(92, 92, 92);
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+    font-size: 1em;
+}
+
+.create-button:active{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+}
+
+.login-button:active{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+}
+
+.signup-button:active{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+}
+
+.search {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: rgb(80, 80, 80);
+    padding: 5px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    position: relative;
+    font-size: 1em;
+}
+
+.search:active{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+}
+
+/*Content buttons*/
+.singupforfree{
+    background-color: rgb(86, 199, 63);
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    outline: none;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.singupforfree{
+    background-color: rgb(86, 199, 63);
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    outline: none;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.singupforfree:active{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+}
+
+.learnmore{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    outline: none;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.learnmore:active{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+}
