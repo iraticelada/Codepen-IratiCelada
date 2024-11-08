@@ -1,6 +1,7 @@
 .content-wrapper{
     display: flex;
-    padding: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
     gap: 40px;
 }
 
@@ -12,7 +13,7 @@
   
 .content-wrapper>.text-wrapper h1 {
     font-size: 30px;
-    line-height: 1.2;
+    line-height: 1.2em;
     margin-bottom: 20px;
     line-height: 1em;
 }
@@ -22,7 +23,7 @@
 }
   
 .content-wrapper>.text-wrapper p {
-    font-size: 18px;
+    font-size: 30px;
     margin-bottom: 30px;
     line-height: 1.5em;
 }
@@ -30,6 +31,7 @@
 .content-wrapper>.project-wrapper p {
     color: white;
     text-align: left;
+    font-weight: bold; 
 }
 
 .content-wrapper>.project-wrapper span {
@@ -37,7 +39,7 @@
 }
 
 .content-wrapper>.project-wrapper img {
-    width: 800px;
+    width: 700px;
     height: 100%;
 }
 

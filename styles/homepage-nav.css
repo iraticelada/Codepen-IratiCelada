@@ -12,32 +12,38 @@
     height: 100%;
 }
 
-.top-header>.navigation-wrapper>.nav-links {
+.top-header>.navigation-wrapper>.nav-links{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.explore-wrapper {
+    margin-bottom: 5px; 
+    font-weight: bold; 
+    color: yellow; 
+    display: flex;
+    text-align: left;
     margin-left: 20px;
 }
 
-.top-header>.navigation-wrapper>.nav-links span {
-    color: rgb(255, 208, 0);
-    margin-right: 20px;
+.top-header>.navigation-wrapper>.nav-links>.nav {
+    display: flex;
+    text-align: left;
+    margin-left: 20px;
 }
 
-.top-header>.navigation-wrapper>.nav-links a {
+.top-header>.navigation-wrapper>.nav-links>.nav a {
     color: white;
     text-decoration: none;
     margin-right: 20px;
     font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    font-weight: bold; 
 }
 
-.search {
-    margin-right: 10px;
-    margin-left: 5px;
-}
 
-.search a {
-    color: white;
-}
 
 
 
